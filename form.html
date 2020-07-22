@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SURVEY FORM</title>
+        <meta charset="UTF-8">
+        <link href="form.css" rel="stylesheet">
+    </head>
+    <body>
+        <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <main id="main">
+        <h1 id="title">Free CodeCamp Survey Form</h1>
+        <p id="description">Thank you for your time </p>
+        <form id="survey-form">
+            <label id="name-label">Name</label><br>
+            <input id="name" type="text" placeholder="Name" required><br>
+            <label id="email-label">Email</label><br>
+            <input id="email" type="email" placeholder="example@gmail.com" required><br>
+            <label id="number-label">Age</label><br>
+            <input id="number" type="number" placeholder="Age" min="18" max="70"><br>
+            <label id="dropdown-label">Which option describe your current role</label><br>
+            <select id="dropdown"><br>
+                <option>Student</option>
+                <option>Full time job</option>
+                <opttion>Full time Learner</opttion>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+            </select><br>
+                <label id="group-label">Would you recomend FreeCodeCamp to friends</label><br>
+                <input class="group" type="radio" value="Definitely" name="group">
+                <label class="group-name">Definitely</label><br>
+                <input  class="group" type="radio" value="Maybe" name="group">
+                <label class="group-name">Maybe</label><br>
+                <input  class="group" type="radio" value="Not sure" name="group">
+                <label class="group-name">Not sure</label><br>
+                <label class="checkbox-heading">What you like to see improved?(check all that apply)</label><br>
+                <input  class="group" type="checkbox" value="frontendprojects">
+                <label class="checkbox">Front-End-Project</label><br>
+                <input  class="group" type="checkbox" value="backendproject">
+                <label class="checkbox">Back-end-project</label><br>
+                <input  class="group" type="checkbox" value="datavisulization">
+                <label class="checkbox">Data-Visualization</label><br>
+                <input  class="group" type="checkbox" value="challange">
+                <label class="checkbox"> Challange</label><br>
+                <label id="comment-label">Any Comment</label><br>
+                <textarea id="comment"></textarea></br>
+
+            <button id="submit" type="submit">SUBMIT</button>
+        </form>
+        </main>
+    </body>
+</html>
