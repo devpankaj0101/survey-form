@@ -1,0 +1,171 @@
+body{
+    background: repeating-linear-gradient(60deg,#60c80ae3,#0fabc7)
+}
+#title{
+    position: relative;
+    top:10px;
+    left:350px;
+    font-size:40px;
+}
+#description{
+    position: relative;
+    top:1px;
+    left:450px;
+    font-size:30px;
+
+}
+#survey-form{
+        position: relative;
+        top:0px;
+        max-width:600px;
+        height:1000px;
+        margin: 0px 0px 50px 300px;
+        background-color: aqua;
+    }
+#name-label{
+    position: relative;
+    top:10px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#name{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    border:1px solid red;
+    width: 480px;
+    height:40px;
+    border-radius:5px;
+}
+#email-label{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#email{
+    position: relative;
+    top:15px;
+
+    margin-left:50px;
+    border:1px solid red;
+    width: 480px;
+    height:40px;
+    border-radius:5px;
+}
+#number-label{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#number{
+    position: relative;
+    top:15px;
+
+    margin-left:50px;
+    border:1px solid red;
+    width: 480px;
+    height:40px;
+    border-radius:5px;
+    
+}
+#dropdown-label{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#dropdown{
+    position: relative;
+    top:15px;
+
+    margin-left:50px;
+    border:1px solid red;
+    width: 480px;
+    height:40px;
+    border-radius:5px;
+}
+#group-label{
+    position: relative;
+    top:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+.group-name{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+.group{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    border:1px solid red;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+
+}
+.checkbox-heading{
+    position: relative;
+    top:25px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+.checkbox{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#comment-label{
+    position: relative;
+    top:15px;
+    margin-left:50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+}
+#comment{
+    position: relative;
+    top:15px;
+    margin-top:10px;
+    margin-left:50px;
+    border:1px solid red;
+    width:350px;
+    height:100px;
+}
+#submit{
+    position: relative;
+    top:40px;
+    margin-left:50px;
+    border:1px solid red;
+    width:107px;
+    height:28px;
+    border-radius: 10px;
+    color:grey;
+}
+input{
+    margin-top:10px;
+    margin-bottom:10px;
+}
